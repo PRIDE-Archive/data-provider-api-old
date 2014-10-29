@@ -13,8 +13,6 @@ public interface ModificationProvider {
 
     public String getAccession();
 
-    public String getName();
-
     public Integer getMainPosition();
 
     public CvParamProvider getNeutralLoss();
