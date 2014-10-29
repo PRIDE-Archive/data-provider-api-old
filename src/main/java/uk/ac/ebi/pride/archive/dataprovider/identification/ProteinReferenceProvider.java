@@ -8,9 +8,5 @@ import java.util.Set;
  */
 public interface ProteinReferenceProvider {
     String getAccession();
-    String getUniprotMapping();
-    String getEnsemblMapping();
-    Set<String> getOtherMappings();
-    String getSubmittedSequence();
-    String getInferredSequence();
+    Set<String> getSynonyms();
 }
