@@ -9,7 +9,8 @@ package uk.ac.ebi.pride.archive.dataprovider.file;
 public enum ProjectFileSource {
     SUBMITTED("submitted"),
     GENERATED("generated"),
-    INTERNAL("internal");
+    INTERNAL("internal"),
+    ORIGINAL("original");
 
     private String folderName;
 
@@ -27,7 +28,6 @@ public enum ProjectFileSource {
                 return projectFileSource;
             }
         }
-
         return null;
     }
 }

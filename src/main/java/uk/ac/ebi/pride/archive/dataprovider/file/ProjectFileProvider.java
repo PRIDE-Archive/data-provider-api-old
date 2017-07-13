@@ -22,6 +22,7 @@ public interface ProjectFileProvider extends EntityProvider{
 
     String getFileName();
 
-    String getFilePath();
+    String getOriginalDataset();
 
+    String getMd5Checksum();
 }
