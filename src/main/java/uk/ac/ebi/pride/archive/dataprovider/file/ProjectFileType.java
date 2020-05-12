@@ -17,7 +17,8 @@ public enum ProjectFileType {
     SPECTRUM_LIBRARY("SPECTRUM_LIBRARY", 8), // spectra library file
     MS_IMAGE_DATA("MS_IMAGE_DATA", 9), // MS image data
     OPTICAL_IMAGE("OPTICAL_IMAGE", 10), // Optical image
-    OTHER("OTHER", 11);  // any other files that are not in the other predefined categories
+    EXPERIMENTAL_DESIGN("EXPERIMENTAL_DESIGN",11), // Experimental design sdrf file
+    OTHER("OTHER", 12);  // any other files that are not in the other predefined categories
 
     private String name;
     private int sortOrder;
