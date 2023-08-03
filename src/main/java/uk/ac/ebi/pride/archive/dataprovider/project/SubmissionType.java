@@ -9,7 +9,7 @@ public enum SubmissionType {
     COMPLETE,
     PARTIAL,
     RAW,
-    AFFINITIVE,
+    AFFINITY,
     PRIDE;
 
 
